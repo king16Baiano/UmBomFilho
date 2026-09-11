@@ -50,12 +50,15 @@
 
     <div>
         <script>
-        if (Desiste)
+            // true significa que desistiu, false significa que continua tentando
+            let Desiste = true; 
 
-        print(Errou)
-        else
-
-        print(Acertou)
+            if (Desiste) {
+            document.getElementById("mensagem").innerText = "Não desista! Tente mais uma vez.";
+            } 
+            else {
+            document.getElementById("mensagem").innerText = "Parabéns por continuar focado!";
+            }
         </script>
     </div>
     
