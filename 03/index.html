@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nomes primordiais no MMA</title>
+
+    <style type="text/css">
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-image: url("https://i.pinimg.com/736x/1b/3a/de/1b3ade96ebfef11119a881413479caab.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #1a1a1a;
+        }
+
+        /* Navbar fixa no topo */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background-color: #2c3e50;
+            padding: 0 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .nav-item {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-bottom: 3px solid transparent;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .nav-item:hover {
+            background-color: #34495e;
+        }
+
+        .nav-item.active {
+            border-bottom: 3px solid #3498db;
+            font-weight: 600;
+        }
+
+        /* Envelope com fundo semi-transparente para manter legibilidade */
+        .conteudo-wrapper {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px 40px;
+        }
+
+        .cabecalho {
+            background-color: rgba(255,255,255,0.92);
+            padding: 25px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .cabecalho h1 {
+            margin: 0 0 10px;
+        }
+
+        .cabecalho p {
+            margin: 0;
+            color: #444;
+        }
+
+        /* Card de cada lutador */
+        .lutador {
+            background-color: rgba(255,255,255,0.92);
+            padding: 25px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            scroll-margin-top: 70px; /* evita que a navbar sticky tape o título ao clicar na âncora */
+        }
+
+        .lutador h2 {
+            margin-top: 0;
+        }
+
+        .lutador-topo {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .lutador-topo img {
+            border: 5px solid black;
+            border-radius: 6px;
+            width: 200px;
+            height: auto;
+        }
+
+        .lutador p {
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .lutador a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .lutador a:hover {
+            text-decoration: underline;
+            color: #1a5276;
+        }
+
+        table {
+            flex: 1;
+            min-width: 260px;
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        caption {
+            text-align: left;
+            font-weight: 600;
+            padding: 8px 12px;
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        thead {
+            background-color: #34495e;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #999, transparent);
+            margin: 40px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#rorion" class="nav-item active">Rorion Gracie</a>
+        <a href="#royce" class="nav-item">Royce Gracie</a>
+        <a href="#anderson" class="nav-item">Anderson Silva</a>
+        <a href="#fedor" class="nav-item">Fedor Emelianenko</a>
+    </nav>
+
+    <div class="conteudo-wrapper">
+
+        <div class="cabecalho">
+            <h1>Nomes primordiais no MMA</h1>
+            <p>Impulsão do UFC por causa do MMA e BJJ</p>
+        </div>
+
+        <!-- Rorion Gracie -->
+        <section class="lutador" id="rorion">
+            <h2>Rorion Gracie</h2>
+            <div class="lutador-topo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Rorion_Gracie_2024.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original"
+                     alt="Foto de Rorion Gracie">
+
+                <table>
+                    <caption>Cartel</caption>
+                    <tbody>
+                        <tr>
+                            <td>Não possui cartel — seu foco era empresarial.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Rorion Gracie, nascido em Rio de Janeiro, 10 de janeiro de 1952.<br>
+                É um empresário, praticante de artes marciais brasileiro e também o criador do Ultimate Fighting Championship (UFC). É o filho mais velho de Hélio Gracie. Rorion é uma das poucas pessoas do mundo a deter o grau 9, ou seja,
+                a faixa vermelha do Jiu-jitsu brasileiro. Rorion recebeu essa promoção de seu pai em 27 de outubro de 2003.
+                Gracie imigrou para os Estados Unidos na década de 1970, onde se tornou um expoente do jiu-jitsu neste país e procurou várias maneiras de promover a arte marcial,
+                como revistas e desafios de luta contra outros artistas marciais, conhecido como o Desafio Gracie. Junto com o empresário Art Davie, é um dos fundadores do Ultimate Fighting Championship (UFC).
+                Gracie fundou o UFC como uma das maneiras de expor o jiu-jitsu a uma nova audiência, e deixou a organização após o UFC 5.
+            </p>
+
+            <a href="https://pt.wikipedia.org/wiki/Rorion_Gracie" target="_blank" rel="noopener noreferrer">Ver na Wikipédia</a>
+        </section>
+
+        <hr>
+
+        <!-- Royce Gracie -->
+        <section class="lutador" id="royce">
+            <h2>Royce Gracie</h2>
+            <div class="lutador-topo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Royce_Gracie_Wet_Plate_Collodion_by_Shane_Balkowitsch.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original"
+                     alt="Foto de Royce Gracie">
+
+                <table>
+                    <caption>Cartel</caption>
+                    <thead>
+                        <tr>
+                            <th>Vitórias</th>
+                            <th>Nocaute</th>
+                            <th>Finalização</th>
+                            <th>Decisão</th>
+                            <th>Derrotas</th>
+                            <th>Nocaute</th>
+                            <th>Empates</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>15</td>
+                            <td>1</td>
+                            <td>12</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Royce Gracie, nascido em 12 de dezembro de 1966 no Rio de Janeiro.<br>
+                Filho do grão-mestre Hélio Gracie, desde pequeno esteve dentro dos tatames, tendo seu pai como mestre. Sua primeira competição foi aos 8 anos de idade.
+                Começou a dar aulas com 14 anos de idade; aos 17 anos, Royce ganhou a faixa preta de seu pai Hélio. Alguns meses depois, ele e seus irmãos Royler e Rickson Gracie se mudaram para Torrance,
+                Califórnia, para morar com seu irmão mais velho Rorion Gracie, que se mudou para lá em 1978 e fundou a Gracie Academy.
+                Os irmãos Gracie nos Estados Unidos continuaram a tradição da família do "Desafio Gracie", no qual desafiavam outros artistas marciais para uma luta de Vale Tudo sem regras em sua academia para provar a superioridade do jiu-jitsu Gracie.
+            </p>
+
+            <a href="https://pt.wikipedia.org/wiki/Royce_Gracie" target="_blank" rel="noopener noreferrer">Ver na Wikipédia</a>
+        </section>
+
+        <hr>
+
+        <!-- Anderson Silva -->
+        <section class="lutador" id="anderson">
+            <h2>Anderson Silva</h2>
+            <div class="lutador-topo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Anderson_Silva.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original"
+                     alt="Foto de Anderson Silva">
+
+                <table>
+                    <caption>Cartel</caption>
+                    <thead>
+                        <tr>
+                            <th>Vitórias</th>
+                            <th>Nocaute</th>
+                            <th>Finalização</th>
+                            <th>Decisão</th>
+                            <th>Derrotas</th>
+                            <th>Nocaute</th>
+                            <th>Finalização</th>
+                            <th>Decisão</th>
+                            <th>Desq.</th>
+                            <th>S/ resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>34</td>
+                            <td>20</td>
+                            <td>6</td>
+                            <td>8</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Anderson Silva, nascido em São Paulo, 14 de abril de 1975.
+                Mais conhecido como Anderson Silva ou Spider, é um ex-lutador brasileiro-estadunidense de MMA e ex-campeão Peso Médio do UFC. Silva conquistou 17 vitórias seguidas e 10 defesas de título consecutivas,
+                sendo considerado um dos maiores lutadores de MMA da história.
+                Nascido na cidade de São Paulo, mudou-se aos 4 anos para Curitiba, onde começou a treinar Taekwondo com 5 anos de idade, esporte no qual tornou-se faixa preta aos 18 anos de idade. No Muay Thai,
+                Anderson foi o segundo faixa preta formado pelo Mestre Fábio Noguchi em Curitiba. Ele também é faixa preta em jiu-jitsu pelos irmãos Nogueira.
+            </p>
+
+            <a href="https://pt.wikipedia.org/wiki/Anderson_Silva" target="_blank" rel="noopener noreferrer">Ver na Wikipédia</a>
+        </section>
+
+        <hr>
+
+        <!-- Fedor Emelianenko -->
+        <section class="lutador" id="fedor">
+            <h2>Fedor Emelianenko</h2>
+            <div class="lutador-topo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Fedor_Emelianenko.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original"
+                     alt="Foto de Fedor Emelianenko">
+
+                <table>
+                    <caption>Cartel</caption>
+                    <thead>
+                        <tr>
+                            <th>Vitórias</th>
+                            <th>Nocaute</th>
+                            <th>Finalização</th>
+                            <th>Decisão</th>
+                            <th>Derrotas</th>
+                            <th>Nocaute</th>
+                            <th>Finalização</th>
+                            <th>S/ resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>40</td>
+                            <td>16</td>
+                            <td>15</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Fedor Vladimirovitch Emelianenko, nascido em Rubizhne, 28 de setembro de 1976.
+                É um ex-lutador profissional de MMA e Sambo russo. Emelianenko é faixa-preta em Judô e Mestre Internacional em Sambo. Começou sua carreira se tornando campeão mundial de Sambo de Combate,
+                fez sua transição ao MMA em 2000 e já em 2003 se tornou campeão dos pesos-pesados no PRIDE Fighting Championships, na época maior evento de MMA do mundo. Lutou ainda no Strikeforce, Bellator MMA, Affliction, M-1 e Fight Nights Global.
+                Emelianenko estreou no Pride 21, em 23 de junho de 2002, contra o holandês Semmy Schilt, um striker de 2,11 m, luta em que o russo venceu por decisão unânime. Em seguida, venceu Heath Herring, o que o credenciou a disputar o cinturão peso-pesado do Pride.
+            </p>
+
+            <a href="https://pt.wikipedia.org/wiki/Fedor_Emelianenko" target="_blank" rel="noopener noreferrer">Ver na Wikipédia</a>
+        </section>
+
+    </div>
+
+    <script>
+        // Marca o item do menu ativo conforme a rolagem passa por cada seção
+        const secoes = document.querySelectorAll(".lutador");
+        const itensNav = document.querySelectorAll(".nav-item");
+
+        window.addEventListener("scroll", () => {
+            let atual = "";
+            secoes.forEach(secao => {
+                const topoSecao = secao.offsetTop - 90;
+                if (window.scrollY >= topoSecao) {
+                    atual = secao.getAttribute("id");
+                }
+            });
+
+            itensNav.forEach(item => {
+                item.classList.remove("active");
+                if (item.getAttribute("href") === "#" + atual) {
+                    item.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
