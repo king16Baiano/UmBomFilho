@@ -51,3 +51,7 @@
         section {
             scroll-margin-top: 90px;
         }
+
+        p {
+            font-size: 20px;
+        }
